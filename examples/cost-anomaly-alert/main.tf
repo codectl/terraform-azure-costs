@@ -1,6 +1,6 @@
 module "costs" {
-  source  = "cloudnationhq/costs/azure"
-  version = "~> 2.0"
+  source  = "codectl/costs/azure"
+  version = "~> 1.0"
 
   costs = {
     cost_anomaly_alerts = {
